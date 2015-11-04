@@ -1,9 +1,11 @@
 # http://www.appveyor.com/docs/appveyor-yml
 
+os: test
+
 # init
 clone_depth: 20
-init:
-- git config --global core.autocrlf false
+#init:
+#- git config --global core.autocrlf false
 
 environment:
   matrix:
